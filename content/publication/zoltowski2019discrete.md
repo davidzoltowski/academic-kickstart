@@ -15,6 +15,7 @@ publication = "Zoltowski DM, Latimer KW, Yates JL, Huk AC, & Pillow JW (2019). D
 #publication_short = "_Neuron_"
 image_preview = ""
 selected = true
+featured = true
 projects = []
 math = true
 highlight = true
