@@ -9,7 +9,8 @@
 
 title = "Discrete stepping and nonlinear ramping dynamics underlie spiking responses of LIP neurons during decision-making"
 date = "2019-05-23"
-authors = ["Zoltowski, David M and Latimer, Kenneth W and Yates, Jacob L and Huk, Alexander C and Pillow, Jonathan W"]
+#authors = ["Zoltowski, David M, Latimer, Kenneth W, Yates, Jacob L, Huk, Alexander C and Pillow, Jonathan W"]
+authors = ["Zoltowski DM, Latimer KW, Yates JL, Huk AC, & Pillow JW"]
 publication_types = ["2"]
 #publication = "Zoltowski DM, Latimer KW, Yates JL, Huk AC, & Pillow JW (2019). Discrete stepping and nonlinear ramping dynamics underlie spiking responses of LIP neurons during decision-making. _Neuron_, 102.6, 1249-1258."
 publication_short = "_Neuron_"
