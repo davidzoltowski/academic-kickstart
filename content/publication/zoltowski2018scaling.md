@@ -8,11 +8,11 @@
 # 5 -> 'Thesis'
 
 title = "Scaling the Poisson GLM to massive neural datasets through polynomial approximations"
-# date = "2018"
-# authors = ["Zoltowski, David M and Pillow, Jonathan W"]
+date = "2018-12-14"
+authors = ["Zoltowski, David M and Pillow, Jonathan W"]
 publication_types = ["3"]
-publication = "Zoltowski DM & Pillow JW (2018). Scaling the Poisson GLM to massive neural datasets through polynomial approximations. _Advances in Neural Information Processing Systems_, 31."
-#publication_short = "_Neuron_"
+#publication = "Zoltowski DM & Pillow JW (2018). Scaling the Poisson GLM to massive neural datasets through polynomial approximations. _Advances in Neural Information Processing Systems_, 31."
+publication_short = "_Advances in Neural Information Processing Systems_, 31"
 image_preview = ""
 selected = true
 featured = true
