@@ -1,6 +1,6 @@
 ---
-title: Posts
 draft: true
+title: Posts
 
 # View.
 #   1 = List
