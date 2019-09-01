@@ -2,13 +2,14 @@
 # Selected Publications widget.
 # This widget displays publications from `content/publication/` which have
 # `selected = true` in their `+++` front matter.
-widget = "publications_selected"
+title = "publications_selected"
 active = true
-date = 2016-04-20
+date = 2019-08-31
+type = widget_page
 
 title = "Selected publications"
 #subtitle = "<a href='publication/'>Here</a> is a list of all of our publications"
-subtitle = "[List of all publications >>](publication/)"
+#subtitle = "[List of all publications >>](publication/)"
 
 # Order that this section will appear in.
 weight = 4
