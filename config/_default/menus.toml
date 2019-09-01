@@ -20,9 +20,9 @@
 
 [[main]]
   name = "Publications"
-  url = "#featured"
+  url = "#publications_selected"
   weight = 40
-
+  
 # [[main]]
 #  name = "Contact"
 #  url = "#contact"
