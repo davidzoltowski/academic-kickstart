@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD Student in Neuroscience
+role: PhD Student
 
 # Organizations/Affiliations
 organizations:
