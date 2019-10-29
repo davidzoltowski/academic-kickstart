@@ -23,8 +23,8 @@ highlight = true
 #abstract= "Neurons in LIP exhibit ramping trial-averaged responses during decision-making. Recent work sparked debate over whether single-trial LIP spike trains are better described by discrete “stepping” or continuous “ramping” dynamics. We extended latent dynamical spike train models and used Bayesian model comparison to address this controversy. First, we incorporated non-Poisson spiking into both models and found that more neurons were better described by stepping than ramping, even when conditioned on evidence or choice. Second, we extended the ramping model to include a non-zero baseline and compressive output nonlinearity. This model accounted for roughly as many neurons as the stepping model. However, latent dynamics inferred under this model exhibited high diffusion variance for many neurons, softening the distinction between continuous and discrete dynamics. Results generalized to additional datasets, demonstrating that substantial fractions of neurons are well described by either stepping or nonlinear ramping, which may be less categorically distinct than the original labels implied."
 
 # Links (optional).
-url ="https://doi.org/10.1016/j.neuron.2019.04.031"
-url_pdf = ""
+# url ="https://doi.org/10.1016/j.neuron.2019.04.031"
+url_pdf = "https://www.sciencedirect.com/science/article/abs/pii/S0896627319303885"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
