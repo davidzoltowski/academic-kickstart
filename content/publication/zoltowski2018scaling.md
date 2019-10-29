@@ -23,7 +23,7 @@ highlight = true
 #abstract = ""
 
 # Links (optional).
-#url_pdf = "papers/zoltowski2019discrete.pdf"
+url_pdf = "http://papers.neurips.cc/paper/7611-scaling-the-poisson-glm-to-massive-neural-datasets-through-polynomial-approximations"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
