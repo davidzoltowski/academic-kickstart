@@ -32,7 +32,7 @@ education:
     institution: Princeton University
     year: 2017-present
   - course: MPhil in Engineering
-    institution: Cambridge University
+    institution: University of Cambridge
     year: 2016
   - course: BS in Electrical Engineering
     institution: Michigan State University
