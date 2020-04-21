@@ -32,7 +32,7 @@ $$
 Next, we derive $\frac{\partial}{\partial \theta} Z(\theta)$ with the key assumption that we can *interchange integration and differentiation* 
 
 $$
-\frac{\partial}{\partial \theta} Z(\theta) = \frac{\partial}{\partial \theta} \int e^{-E_\theta(x)} \mathrm{d}x = \int \frac{\partial}{\partial \theta} e^{-E_\theta(x)} \mathrm{d}x.
+\frac{\partial}{\partial \theta} Z(\theta) = \frac{\partial}{\partial \theta} e^{-E_\theta(x)} \mathrm{d}x = \int \frac{\partial}{\partial \theta} e^{-E_\theta(x)} \mathrm{d}x.
 $$ 
 
 Putting together the pieces gives us
