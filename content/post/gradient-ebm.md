@@ -23,7 +23,7 @@ $$
 But where does this come from? Here we derive it using the log-derivative trick and with one key assumption. We start by writing the gradient
 
 $$
-\frac{\partial}{\partial \theta} \log p_\theta(x) = \frac{\partial}{\partial \theta} \left\[ -\log Z(\theta) - E_\theta(x) \right\] = - \frac{\partial}{\partial \theta} \log Z(\theta) - \frac{\partial}{\partial \theta} E_\theta(x).
+\frac{\partial}{\partial \theta} \log p_\theta(x) = \frac{\partial}{\partial \theta} \left[ -\log Z(\theta) - E_\theta(x) \right] = - \frac{\partial}{\partial \theta} \log Z(\theta) - \frac{\partial}{\partial \theta} E_\theta(x).
 $$
 
 We have already identified the second term in the gradient. The first term requires some care. We start by using the log-derivative trick
@@ -41,11 +41,11 @@ $$
 Putting together the pieces gives us
 
 $$
-\frac{\partial}{\partial \theta} \log Z(\theta) & = \frac{1}{Z(\theta)} \int \frac{\partial}{\partial \theta} e^{-E_\theta(x)} \mathrm{d}x
+\frac{\partial}{\partial \theta} \log Z(\theta)  = \frac{1}{Z(\theta)} \int \frac{\partial}{\partial \theta} e^{-E_\theta(x)} \mathrm{d}x
 \\ 
-& = \int  \frac{1}{Z(\theta)} \frac{\partial}{\partial \theta} e^{-E_\theta(x)} \mathrm{d}x \\
-& = - \int  \frac{1}{Z(\theta)} e^{-E_\theta(x)}  \frac{\partial}{\partial \theta} E_\theta(x)  \mathrm{d}x \\
-& = - \mathbb{E}_{p_\theta(x)} \left[  \frac{\partial}{\partial \theta} E_\theta(x) \right].
+ = \int  \frac{1}{Z(\theta)} \frac{\partial}{\partial \theta} e^{-E_\theta(x)} \mathrm{d}x \\
+ = - \int  \frac{1}{Z(\theta)} e^{-E_\theta(x)}  \frac{\partial}{\partial \theta} E_\theta(x)  \mathrm{d}x \\
+ = - \mathbb{E}_{p_\theta(x)} \left[  \frac{\partial}{\partial \theta} E_\theta(x) \right].
 $$
 
 We are done! We can plus this into the equation above (keeping track of minus signs) to get
