@@ -19,6 +19,6 @@ First. Does $\mathbb{E}$ work?
 Second, does $\int$ work?
 
 $$
-\frac{\partial}{\partial \theta} \log p\_\theta(x) = 
+\frac{\partial}{\partial \theta} \log p\_\theta(x) = \mathbb{E}\_{p_\theta(x)}
 $$
 
