@@ -15,6 +15,8 @@ with normalizing constant $Z(\theta)$. Papers often state that the gradient of $
 
 First. Does $\mathbb{E}$ work?
 
+Second, does $\int$ work?
+
 $$
 \frac{\partial}{\partial \theta} \log p_\theta(x) = {{\mathbb{E}}_{p_\theta(x)} \left [ \frac{\partial}{\partial \theta} E_\theta(x) \right ]- \frac{\partial}{\partial \theta} E_\theta(x). 
 $$
