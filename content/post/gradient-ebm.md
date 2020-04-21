@@ -36,4 +36,18 @@ $$
 \frac{\partial}{\partial \theta} Z(\theta) = \frac{\partial}{\partial \theta} \int e^{-E\_\theta(x)} \mathrm{d}x = \int \frac{\partial}{\partial \theta} e^{-E\_\theta(x)} \mathrm{d}x.
 $$ 
 
+Putting together the pieces gives us
 
+$$
+\frac{\partial}{\partial \theta} \log Z(\theta) = \frac{1}{Z(\theta)} \int \frac{\partial}{\partial \theta} e^{-E\_\theta(x)} \mathrm{d}x
+\\ 
+\quad \qquad \qquad = \int  \frac{1}{Z(\theta)} \frac{\partial}{\partial \theta} e^{-E\_\theta(x)} \mathrm{d}x \\
+\qquad \qquad \qquad \qquad \, \, \, = - \int  \frac{1}{Z(\theta)} e^{-E\_\theta(x)}  \frac{\partial}{\partial \theta} E\_\theta(x)  \mathrm{d}x \\
+\qquad \qquad \, \, \, \, = - \mathbb{E}\_{p\_\theta(x)} \left\[  \frac{\partial}{\partial \theta} E\_\theta(x) \right\].
+$$
+
+We are done! We can plus this into the equation above (keeping track of minus signs) to get
+
+$$
+\frac{\partial}{\partial \theta} \log p\_\theta(x) = \mathbb{E}\_{p\_\theta(x)}\left\[\frac{\partial}{\partial \theta} E\_\theta(x) \right\]- \frac{\partial}{\partial \theta} E\_\theta(x).
+$$
