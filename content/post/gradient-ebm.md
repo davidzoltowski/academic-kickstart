@@ -40,12 +40,14 @@ $$
 
 Putting together the pieces gives us
 
+$$
 \begin{align}
 \frac{\partial}{\partial \theta} \log Z(\theta)  &= \frac{1}{Z(\theta)} \int \frac{\partial}{\partial \theta} e^{-E_\theta(x)} \mathrm{d}x \\ 
  & = \int  \frac{1}{Z(\theta)} \frac{\partial}{\partial \theta} e^{-E_\theta(x)} \mathrm{d}x \\
  & = - \int  \frac{1}{Z(\theta)} e^{-E_\theta(x)}  \frac{\partial}{\partial \theta} E_\theta(x)  \mathrm{d}x \\
  & = - \mathbb{E}_{p_\theta(x)} \left[  \frac{\partial}{\partial \theta} E_\theta(x) \right].
 \end{align}
+$$
 
 We are done! We can plus this into the equation above (keeping track of minus signs) to get
 
