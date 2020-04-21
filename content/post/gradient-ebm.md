@@ -1,8 +1,10 @@
 ---
+
 title: "Gradients of Energy-Based Models"
 date: 2020-04-21T13:19:36-07:00
 draft: false
 featured: true
+markup: mmark
 
 ---
 
@@ -13,6 +15,10 @@ p(x) = \frac{1}{Z(\theta)} \, e^{-E_\theta(x)}
 $$
 
 with normalizing constant $Z(\theta)$. Papers often state that the gradient of $\log p_\theta(x)$ with respect to $\theta$ is 
+
+$$
+\frac{\partial}{\partial \theta} \log p_\theta(x) = \mathbb{E}_{p_\theta(x)} \left[ \frac{\partial}{\partial \theta} E\_\theta(x) \right] - \frac{\partial}{\partial \theta} E_\theta(x). 
+$$
 
 $$
 \frac{\partial}{\partial \theta} \log p\_\theta(x) = \mathbb{E}\_{p\_\theta(x)} \left \[ \frac{\partial}{\partial \theta} E\_\theta(x) \right \] - \frac{\partial}{\partial \theta} E\_\theta(x). 
@@ -39,11 +45,11 @@ $$
 Putting together the pieces gives us
 
 $$
-\frac{\partial}{\partial \theta} \log Z(\theta) = \frac{1}{Z(\theta)} \int \frac{\partial}{\partial \theta} e^{-E\_\theta(x)} \mathrm{d}x
+\frac{\partial}{\partial \theta} \log Z(\theta) & = \frac{1}{Z(\theta)} \int \frac{\partial}{\partial \theta} e^{-E\_\theta(x)} \mathrm{d}x
 \\ 
-\quad \qquad \qquad = \int  \frac{1}{Z(\theta)} \frac{\partial}{\partial \theta} e^{-E\_\theta(x)} \mathrm{d}x \\
-\qquad \qquad \qquad \qquad \, \, \, = - \int  \frac{1}{Z(\theta)} e^{-E\_\theta(x)}  \frac{\partial}{\partial \theta} E\_\theta(x)  \mathrm{d}x \\
-\qquad \qquad \, \, \, \, = - \mathbb{E}\_{p\_\theta(x)} \left\[  \frac{\partial}{\partial \theta} E\_\theta(x) \right\].
+& = \int  \frac{1}{Z(\theta)} \frac{\partial}{\partial \theta} e^{-E\_\theta(x)} \mathrm{d}x \\
+& = - \int  \frac{1}{Z(\theta)} e^{-E\_\theta(x)}  \frac{\partial}{\partial \theta} E\_\theta(x)  \mathrm{d}x \\
+& = - \mathbb{E}\_{p\_\theta(x)} \left\[  \frac{\partial}{\partial \theta} E\_\theta(x) \right\].
 $$
 
 We are done! We can plus this into the equation above (keeping track of minus signs) to get
