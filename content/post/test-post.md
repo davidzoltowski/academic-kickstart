@@ -5,3 +5,7 @@ draft: false
 featured: true
 ---
 
+Does math work: $x$? How about inline?
+$$
+x_t = A x_{t-1}
+$$
