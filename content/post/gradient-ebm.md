@@ -2,11 +2,13 @@
 
 title: "Gradients of Energy-Based Models"
 date: 2020-04-21T13:19:36-07:00
-draft: false
+draft: true
 featured: true
 markup: mmark
 
 ---
+
+Energy based models (EBMs) are drawing a lot of recent attention. Importantly, you can write the gradient of the log-likelihood of an EBM with respect to the parameters. However, this gradient is commonly stated in papers without a derivation, so I thought I would derive it here. 
 
 Consider an energy based model
 
@@ -20,13 +22,13 @@ $$
 \frac{\partial}{\partial \theta} \log p_\theta(x) = \mathbb{E}_{p_\theta(x)} \left[ \frac{\partial}{\partial \theta} E_\theta(x) \right] - \frac{\partial}{\partial \theta} E_\theta(x). 
 $$
 
-But where does this come from? Here we derive it using the log-derivative trick and with one key assumption. We start by writing the gradient
+But where does this come from? Here we derive it using the log-derivative trick and with one key assumption. We start by writing out the gradient
 
 $$
-\frac{\partial}{\partial \theta} \log p_\theta(x) = \frac{\partial}{\partial \theta} \left[ -\log Z(\theta) - E_\theta(x) \right] = - \frac{\partial}{\partial \theta} \log Z(\theta) - \frac{\partial}{\partial \theta} E_\theta(x).
+\frac{\partial}{\partial \theta} \log p_\theta(x) = \frac{\partial}{\partial \theta} \left[ -\log Z(\theta) - E_\theta(x) \right] = - \frac{\partial}{\partial \theta} \log Z(\theta) - \frac{\partial}{\partial \theta} E_\theta(x)
 $$
 
-We have already identified the second term in the gradient. The first term requires some care. We start by using the log-derivative trick
+and notice that we have already identified the second term in the gradient. The first term requires some care. We start by using the log-derivative trick
 
 $$
 \frac{\partial}{\partial \theta} \log Z(\theta) = \frac{ \frac{\partial}{\partial \theta} Z(\theta)}{Z(\theta)}.
