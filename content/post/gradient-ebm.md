@@ -18,7 +18,11 @@ First. Does $\mathbb{E}$ work?
 Second, does $\int$ work?
 
 $$
-\frac{\partial}{\partial \theta} \log p_\theta(x) = \mathbb{E}\_{p_\theta (x)} \left [ \frac{\partial}{\partial \theta} E_\theta(x) \right ]- \frac{\partial}{\partial \theta} E_\theta(x). 
+\frac{\partial}{\partial \theta} \log p_\theta(x) = E \bigg[ \frac{\partial}{\partial \theta} E_\theta(x) \bigg]- \frac{\partial}{\partial \theta} E_\theta(x). 
+$$
+
+$$
+\frac{\partial}{\partial \theta} \log p_\theta(x) = \mathbb{E}\_{p_\theta (x)} \bigg[ \frac{\partial}{\partial \theta} E_\theta(x) \bigg]- \frac{\partial}{\partial \theta} E_\theta(x). 
 $$
 
 But where does this come from? Here we derive it using the log-derivative trick and with one key assumption. We start by writing the gradient
