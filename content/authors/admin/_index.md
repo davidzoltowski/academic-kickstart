@@ -10,11 +10,11 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD Student
+role: Postdoctoral Fellow in Statistics 
 
 # Organizations/Affiliations
 organizations:
-- name: Princeton University
+- name: Stanford University
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -22,6 +22,7 @@ bio: My research interests include statistical neuroscience and topics in Bayesi
 
 interests:
 - Statistical neuroscience
+- Brain computer iterfaces
 - Generative models
 - Approximate inference
 - Scalable inference
@@ -30,7 +31,7 @@ education:
   courses:
   - course: PhD in Neuroscience
     institution: Princeton University
-    year: 2017-present
+    year: 2017-2022
   - course: MPhil in Engineering
     institution: University of Cambridge
     year: 2016
@@ -45,7 +46,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:zoltowski@princeton.edu".
+  link: '#contact'  # For a direct email link, use "mailto:dzoltow@stanford.edu".
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=ZnxTn6IAAAAJ
@@ -71,4 +72,4 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD student in Neuroscience at Princeton University where I am advised by and work with Jonathan Pillow in the [Pillow Lab](https://pillowlab.princeton.edu/). I additionally collaborate with Ryan Adams in the [Laboratory for Intelligent Probabilistic Systems](http://lips.cs.princeton.edu/). My interests are in statistical neuroscience and probabilistic machine learning, and my current research projects include latent variable models of neural activity during decision-making, scalable analyses for neural data, and randomized algorithms. Previously, I received an MPhil in Engineering at the University of Cambridge as part of the [Computational and Biological Learning Lab](http://learning.eng.cam.ac.uk/Public/) where I was advised by Mate Lengyel. Before that, I obtained a B.S. in electrical engineering from Michigan State University.
+I am a postdoc in statistics at Stanford University, where I work with Scott Linderman and David Sussillo on models of neural dynamics and on brain computer interfaces. Before that, I obtained a PhD in Neuroscience at Princeton University. At Princeton I was advised by Jonathan Pillow and worked on a variety of topics in statistical neuroscience in the [Pillow Lab](https://pillowlab.princeton.edu/). I additionally collaborated with Ryan Adams in the [Laboratory for Intelligent Probabilistic Systems](http://lips.cs.princeton.edu/). Previously, I received an MPhil in Engineering at the University of Cambridge as part of the [Computational and Biological Learning Lab](http://learning.eng.cam.ac.uk/Public/) where I was advised by Mate Lengyel, and a B.S. in electrical engineering from Michigan State University.
