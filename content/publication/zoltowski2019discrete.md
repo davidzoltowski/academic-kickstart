@@ -14,7 +14,12 @@ authors = ["Zoltowski, David, Latimer, Kenneth, Yates, Jacob, Huk, Alexander and
 publication_types = ["2"]
 #publication = "Zoltowski DM, Latimer KW, Yates JL, Huk AC, & Pillow JW (2019). Discrete stepping and nonlinear ramping dynamics underlie spiking responses of LIP neurons during decision-making. _Neuron_, 102.6, 1249-1258."
 publication_short = "_Neuron_"
-image_preview = "zoltowski2019discrete.png"
+image_preview = "img/zoltowski2019discrete.png"  # Make sure the path is correct
+
+[image]
+  caption = "Test"
+  focal_point = "Center"
+  preview_only = false
 
 [[image.feature]]
   caption = "Test"
