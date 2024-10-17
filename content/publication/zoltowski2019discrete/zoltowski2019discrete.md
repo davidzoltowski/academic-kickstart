@@ -14,8 +14,8 @@ authors = ["Zoltowski, David, Latimer, Kenneth, Yates, Jacob, Huk, Alexander and
 publication_types = ["2"]
 #publication = "Zoltowski DM, Latimer KW, Yates JL, Huk AC, & Pillow JW (2019). Discrete stepping and nonlinear ramping dynamics underlie spiking responses of LIP neurons during decision-making. _Neuron_, 102.6, 1249-1258."
 publication_short = "_Neuron_"
-# image_preview = "zoltowski2019discrete.png"
-# image = "zoltowski2019discrete.png"
+image_preview = "featured.png"
+#image = "featured.png"
 selected = true
 featured = true
 projects = []
@@ -39,12 +39,12 @@ url_source = ""
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 url_custom = []
 
-image:
-  caption: ''
+image: featured.png
+  caption: ""
   focal_point: ""
   preview_only: false
 
 [header]
-# image = "zoltowski2019discrete.png"
+#image = "zoltowski2019discrete.png"
 caption = ""
 +++
