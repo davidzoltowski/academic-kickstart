@@ -16,10 +16,17 @@ publication_types = ["2"]
 publication_short = "_Neuron_"
 image_preview = "featured.png"
 [[image.feature]]
-  caption = ""
-  filename = "img/zoltowski2019discrete.png"  # Path relative to the `static/` folder
+  caption = "Test"
+  filename = "zoltowski2019discrete.png"  # Path relative to the `static/` folder
   focal_point = "Center"
   preview_only = false
+
+[[image]]
+  caption = "Test"
+  filename = "zoltowski2019discrete.png"  # Path relative to the `static/` folder
+  focal_point = "Center"
+  preview_only = false
+  
 selected = true
 featured = true
 projects = []
