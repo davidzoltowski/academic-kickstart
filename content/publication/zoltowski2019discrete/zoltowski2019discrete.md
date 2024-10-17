@@ -39,10 +39,10 @@ url_source = ""
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 url_custom = []
 
-image: featured.png
-  caption: ""
-  focal_point: ""
-  preview_only: false
+#image: featured.png
+  #caption: ""
+  #focal_point: ""
+  #preview_only: false
 
 [header]
 #image = "zoltowski2019discrete.png"
