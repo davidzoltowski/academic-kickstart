@@ -8,7 +8,7 @@
 # 5 -> 'Thesis'
 
 title = "A general recurrent state space framework for modeling neural dynamics during decision-making"
-date = "2020"
+date = "2020-07"
 authors = ["Zoltowski, David M, Pillow, Jonathan W, and Linderman, Scott W"]
 publication_types = ["3"]
 publication_short = "ICML, 2020"
