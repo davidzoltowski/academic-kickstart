@@ -16,7 +16,7 @@ publication_types = ["2"]
 publication_short = "_Neuron_"
 image_preview = "zoltowski2019discrete.png"
 
-[[image]]
+[[image.feature]]
   caption = "Test"
   filename = "img/zoltowski2019discrete.png"
   focal_point = "Center"
