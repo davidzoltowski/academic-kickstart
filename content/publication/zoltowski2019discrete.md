@@ -18,7 +18,7 @@ image_preview = "zoltowski2019discrete.png"
 
 [[image]]
   caption = "Test"
-  filename = "zoltowski2019discrete.png"  # Path relative to the `static/` folder
+  filename = "img/zoltowski2019discrete.png"
   focal_point = "Center"
   preview_only = false
   
