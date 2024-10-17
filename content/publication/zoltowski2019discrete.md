@@ -39,6 +39,6 @@ url_source = ""
 url_custom = []
 
 [header]
-image = "publications/zoltowski2019discrete.png"
+image = "static/img/zoltowski2019discrete.png"
 caption = ""
 +++
